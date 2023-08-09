@@ -1,0 +1,29 @@
+{
+  "name": "playground",
+  "version": "1.0.0",
+  "description": "playground for testint, exploring, ideating, and everything in between",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc && node dist/src/index.js"
+  },
+  "_moduleAliases": {
+    "@/src": "dist/src",
+    "@/lib": "dist/lib"
+  },
+  "author": "gitswitch",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "@trivago/prettier-plugin-sort-imports": "^4.2.0",
+    "@typescript-eslint/eslint-plugin": "^6.3.0",
+    "@typescript-eslint/parser": "^6.3.0",
+    "eslint": "^8.46.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-prettier": "^5.0.0",
+    "module-alias": "^2.2.3",
+    "prettier": "^3.0.1"
+  }
+}
